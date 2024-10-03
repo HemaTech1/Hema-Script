@@ -3826,7 +3826,7 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("Apple Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Hema Hub","",Enum.KeyCode.RightControl);
 
 local NguyenTien = Library:AddTab("Information","4483345998")
 local Main = Library:AddTab("Main","4483345998")
@@ -3840,23 +3840,23 @@ local S = Library:AddTab("Shop","4483345998")
 local D = Library:AddTab("Devil Fruit","4483345998")
 local Misc = Library:AddTab("Misc","4483345998")
 --- ThÃ´ng Tin
-NguyenTien:AddSeperator("Information Developer")
-NguyenTien:AddLabel("Owner: Nguyen Tien (Tiny)")
-NguyenTien:AddLabel("Support Code: Lynx (My Girl Friend)")
-NguyenTien:AddLabel("Ui: Thunderz Hub")
+NguyenTien:AddSeperator("h-scripts.site")
+NguyenTien:AddLabel("Owner: Ibrahim Mansour")
+NguyenTien:AddLabel("Support Code: HemaTech ")
+NguyenTien:AddLabel("Ui: HemaTech™")
 NguyenTien:AddLabel("Thank You For Assisting Me With The\n Script Interface!")
 
 NguyenTien:AddSeperator("Social Network")
-NguyenTien:AddButton("Discord Sever",function()
-setclipboard("https://discord.gg/Dg5nr8CrVV")
+NguyenTien:AddButton("Telegram",function()
+setclipboard("https://t.me/hscripts")
 Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
 end)
 NguyenTien:AddButton("YouTube Official",function()
-setclipboard("https://youtube.com/@imtienguyenz")
+setclipboard("https://youtube.com/@hema_tech1?si=K8-oSyqyLn08F-Wx")
 Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
 end)
 NguyenTien:AddButton("Facebook Official Owner",function()
-setclipboard("https://www.facebook.com/minhtien.modder")
+setclipboard("https://www.facebook.com/share/tQ7dVgmQ5Rrh8nad/?mibextid=qi2Omg")
 Notif.New("Copying To Clipboard DoneðŸŽ‰", 3)
 end)
 ---- Trang Chá»§
@@ -13706,7 +13706,7 @@ Misc:AddButton("Kaitun Cap", function(value)
 		for k,v in pairs(cac) do
 			if ListHuhu[v] and game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buy"..v,true) == 1 then 
 				local huhu = Instance.new("ImageLabel",MeleeG)
-				huhu.Image = "rbxassetid://9945562382"
+				huhu.Image = "rbxassetid://87175687369707"
 				huhu.ImageRectSize = Vector2.new(100,100)
 				huhu.ImageRectOffset = ListHuhu[v]*100
 			end
